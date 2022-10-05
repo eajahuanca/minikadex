@@ -23,3 +23,7 @@ python manage.py runserver
 username: usertest
 password: 4rch12022
 ```
+### Url de acceso en el Navegador
+```commandline
+http://localhost:8000/minikardex
+```
