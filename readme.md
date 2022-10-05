@@ -29,11 +29,11 @@ http://localhost:8000/minikardex
 ```
 ### Capturas de Pantalla
 * Productos
-![Alt text](capturas/Productos.jpg?raw=true "Productos")
-![Alt text](capturas/ProductoForm.jpg?raw=true "Formulario de Producto")
+![Produtos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Productos.jpg?raw=true "Productos")
+![Formulario Productos](https://github.com/eajahuanca/minikardex/blob/main/capturas/ProductoForm.jpg?raw=true "Formulario de Producto")
 * Ingresos
-![Alt text](capturas/Ingresos.jpg?raw=true "Ingresos")
-![Alt text](capturas/IngresoForm.jpg?raw=true "Formulario de Ingresos")
+![Ingresos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Ingresos.jpg?raw=true "Ingresos")
+![Formulario Ingresos](https://github.com/eajahuanca/minikardex/blob/main/capturas/IngresoForm.jpg?raw=true "Formulario de Ingresos")
 * Ventas
-![Alt text](capturas/Ventas.jpg?raw=true "Ventas")
-![Alt text](capturas/VentaForm.jpg?raw=true "Formulario de Ventas")
+![Ventas](https://github.com/eajahuanca/minikardex/blob/main/capturas/Ventas.jpg?raw=true "Ventas")
+![Formulario Ventas](https://github.com/eajahuanca/minikardex/blob/main/capturas/VentaForm.jpg?raw=true "Formulario de Ventas")
