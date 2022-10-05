@@ -27,3 +27,13 @@ password: 4rch12022
 ```commandline
 http://localhost:8000/minikardex
 ```
+### Capturas de Pantalla
+* Productos
+![Alt text](capturas/Productos.jpg?raw=true "Productos")
+![Alt text](capturas/ProductoForm.jpg?raw=true "Formulario de Producto")
+* Ingresos
+![Alt text](capturas/Ingresos.jpg?raw=true "Ingresos")
+![Alt text](capturas/IngresoForm.jpg?raw=true "Formulario de Ingresos")
+* Ventas
+![Alt text](capturas/Ventas.jpg?raw=true "Ventas")
+![Alt text](capturas/VentaForm.jpg?raw=true "Formulario de Ventas")
