@@ -20,7 +20,10 @@ BASE_APPS = [
 ]
 
 LOCAL_APPS = [
-
+    'modulos.seguridad',
+    'modulos.producto',
+    'modulos.ingreso',
+    'modulos.venta',
 ]
 
 THIRD_APPS = [
@@ -64,7 +67,7 @@ WSGI_APPLICATION = 'minikardex.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR.child('db.minikardex'),
     }
 }
 
@@ -101,3 +104,5 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR.child('media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'seguridad.Usuario'
