@@ -29,11 +29,11 @@ http://localhost:8000/minikardex
 ```
 ### Capturas de Pantalla
 * Productos
-![Produtos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Productos.jpg?raw=true "Productos")
-![Formulario Productos](https://github.com/eajahuanca/minikardex/blob/main/capturas/ProductoForm.jpg?raw=true "Formulario de Producto")
+![Produtos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Productos.JPG "Productos")
+![Formulario Productos](https://github.com/eajahuanca/minikardex/blob/main/capturas/ProductoForm.JPG "Formulario de Producto")
 * Ingresos
-![Ingresos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Ingresos.jpg?raw=true "Ingresos")
-![Formulario Ingresos](https://github.com/eajahuanca/minikardex/blob/main/capturas/IngresoForm.jpg?raw=true "Formulario de Ingresos")
+![Ingresos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Ingresos.JPG "Ingresos")
+![Formulario Ingresos](https://github.com/eajahuanca/minikardex/blob/main/capturas/IngresoForm.JPG "Formulario de Ingresos")
 * Ventas
-![Ventas](https://github.com/eajahuanca/minikardex/blob/main/capturas/Ventas.jpg?raw=true "Ventas")
-![Formulario Ventas](https://github.com/eajahuanca/minikardex/blob/main/capturas/VentaForm.jpg?raw=true "Formulario de Ventas")
+![Ventas](https://github.com/eajahuanca/minikardex/blob/main/capturas/Ventas.JPG "Ventas")
+![Formulario Ventas](https://github.com/eajahuanca/minikardex/blob/main/capturas/VentaForm.JPG "Formulario de Ventas")
