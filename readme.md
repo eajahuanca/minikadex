@@ -27,6 +27,98 @@ password: 4rch12022
 ```commandline
 http://localhost:8000/minikardex
 ```
+### Django REST Framework
+* EndPoint Tipo de Productos
+```commandline
+Method: [GET]
+Url: http://localhost:8000/api/producto/tipoproducto/
+Response:
+[
+    {
+        "id": 1,
+        "tipoproducto": "TASAS",
+        "descripcion": "TASAS"
+    },
+    {
+        "id": 2,
+        "tipoproducto": "JUGUETES",
+        "descripcion": "JUGUETES"
+    },
+    {
+        "id": 3,
+        "tipoproducto": "POLERAS",
+        "descripcion": "POLERAS DE SUPER HEROES"
+    }
+]
+```
+* EndPoint Categoria de productos
+```commandline
+Method: [GET]
+Url: http://localhost:8000/api/producto/categoria/
+Response:
+[
+    {
+        "id": 1,
+        "categoria": "DC COMICS",
+        "descripcion": "DC COMICS"
+    },
+    {
+        "id": 2,
+        "categoria": "MARVEL",
+        "descripcion": "MARVEL"
+    }
+]
+```
+* Productos
+```commandline
+Method: [GET]
+Url: http://localhost:8000/api/producto/producto/
+Response:
+[
+    {
+        "id": 1,
+        "categoria": {
+            "id": 1,
+            "categoria": "DC COMICS",
+            "descripcion": "DC COMICS"
+        },
+        "categoria_id": 1,
+        "tipoproducto": {
+            "id": 1,
+            "tipoproducto": "TASAS",
+            "descripcion": "TASAS"
+        },
+        "tipoproducto_id": 1,
+        "producto": "TASA BATMAN",
+        "descripcion": "TASA BATMAN COLOR BLANCO Y NEGRO",
+        "imagen": "http://localhost:8000/media/productos/BATMAN_TASA.jpg",
+        "stock": 26,
+        "precio": "15.00",
+        "estado": true
+    },
+    {
+        "id": 2,
+        "categoria": {
+            "id": 2,
+            "categoria": "MARVEL",
+            "descripcion": "MARVEL"
+        },
+        "categoria_id": 2,
+        "tipoproducto": {
+            "id": 3,
+            "tipoproducto": "POLERAS",
+            "descripcion": "POLERAS DE SUPER HEROES"
+        },
+        "tipoproducto_id": 3,
+        "producto": "POLERA IRON MAN ROJO",
+        "descripcion": "POLERA IRON MAN ROJO TALLA XL",
+        "imagen": "http://localhost:8000/media/productos/IRONMAN.jpg",
+        "stock": 63,
+        "precio": "41.00",
+        "estado": true
+    }
+]
+```
 ### Capturas de Pantalla
 * Productos
 ![Produtos](https://github.com/eajahuanca/minikardex/blob/main/capturas/Productos.JPG "Productos")
