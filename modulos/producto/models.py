@@ -2,6 +2,10 @@ from django.db import models
 from modulos.logmodel.models import LogModel
 from sorl.thumbnail import get_thumbnail
 from django.utils.html import format_html
+from .validators import (
+    validar_costo_producto,
+    validar_stock_minimo
+)
 
 
 class Categoria(LogModel):
@@ -34,8 +38,9 @@ class Producto(LogModel):
     producto = models.CharField('Nombre del Producto', max_length=100,)
     descripcion = models.TextField('Descripción')
     imagen = models.ImageField('Imagen del Producto', upload_to='productos/', blank=False, null=False)
-    stock = models.IntegerField('Stock del Producto', default=0)
-    precio = models.DecimalField('Costo del Producto $us', decimal_places=2, max_digits=10, default=0)
+    stock = models.IntegerField('Stock del Producto', default=0, validators=[validar_stock_minimo, ])
+    precio = models.DecimalField('Costo del Producto $us', decimal_places=2, max_digits=10, default=0,
+                                 validators=[validar_costo_producto, ])
     estado = models.BooleanField('Estado Actual', default=True)
 
     @property
